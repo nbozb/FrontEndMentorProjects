@@ -22,7 +22,7 @@ body {
 }
 
 .qr-card {
-    max-width: 288px;
+    max-width: 300px;
     background-color: white;
     justify-self: center;
     align-self: center;
@@ -35,7 +35,7 @@ body {
 }
 
 img {
-    max-width: 288px;
+    max-width: 350px;
     border-radius: 17px;
     margin-bottom: 20px;
 }
@@ -50,7 +50,7 @@ img {
 
 h2 {
     font-family: var(--main-font-fam);
-    font-size: 20px;
+    font-size: 22px;
     color: hsl(218, 44%, 22%);
     margin-bottom: 12px;
 }
