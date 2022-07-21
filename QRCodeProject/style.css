@@ -9,6 +9,12 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
 }
 
@@ -18,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3vh;
+    margin-top: 3vh;
 }
 
 .qr-card {
@@ -55,20 +61,8 @@ h2 {
     margin-bottom: 12px;
 }
 
-p {
+p, .attribution {
     font-family: var(--main-font-fam);
     font-size: 15px;
     color: hsl(220, 15%, 55%);
-}
-
-.attribution {
-    min-height: 3vh;
-    max-height: 3vh;
-    display: flex;
-    margin:10px;
-}
-
-.attribution > p {
-    margin:3px;
-
 }
