@@ -17,6 +17,15 @@ body {
   flex-wrap: nowrap;
 }
 
+@media (max-width:380px) {
+  body {
+    background: url(images/pattern-background-mobile.svg);
+    background-repeat: repeat-x;
+    margin: 0px 20px;
+    background-color: hsl(225deg, 100%, 94%);
+  }
+}
+
 .card {
   background-color: white;
   max-width: 360px;
